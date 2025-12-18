@@ -1,90 +1,16 @@
-# OpenAI.fm
+रामलाल एक छोटे से गाँव में रहने वाला गरीब किसान था। उसके पास सिर्फ़ दो बीघा ज़मीन थी, जो उसके पिता ने उसे विरासत में दी थी। वही ज़मीन उसके परिवार की रोज़ी-रोटी थी। रामलाल के घर में उसकी पत्नी सीता और दो छोटे बच्चे थे। जीवन कठिन था, लेकिन रामलाल ईमानदार और मेहनती था।
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![NextJS](https://img.shields.io/badge/Built_with-NextJS-blue)
-![OpenAI API](https://img.shields.io/badge/Powered_by-OpenAI_API-orange)
+हर दिन वह सूरज निकलने से पहले उठ जाता। टूटी हुई झोपड़ी से बाहर निकलकर वह अपने बैलों के साथ खेत की ओर चल पड़ता। उसके पास न नई मशीनें थीं, न अच्छे बीज। फिर भी वह मिट्टी को माँ मानकर मेहनत करता। उसे विश्वास था कि एक दिन उसकी मेहनत रंग ज़रूर लाएगी।
 
-[OpenAI.fm](https://openai.fm) is an interactive demo to showcase the new OpenAI text-to-speech models.
-It is built with NextJS and the [Speech API](https://platform.openai.com/docs/api-reference/audio/createSpeech).
+उस साल बारिश समय पर नहीं हुई। खेत सूखे पड़े रहे। गाँव के कई किसान शहर कमाने चले गए, लेकिन रामलाल ने हिम्मत नहीं हारी। उसने सोचा,
+“अगर मैं भी चला गया, तो इस ज़मीन का क्या होगा?”
 
-For more information about text-to-speech using the OpenAI API, check out our [documentation](https://platform.openai.com/docs/guides/text-to-speech).
+उसने गाँव के तालाब से पानी लाकर किसी तरह फसल बोई। कई रातें उसने बिना खाए गुज़ार दीं, ताकि बच्चों को खाना मिल सके। सीता उसे हमेशा हौसला देती,
+“भगवान मेहनत करने वालों का साथ ज़रूर देता है।”
 
-![screenshot](./public/screenshot.jpg)
+एक दिन अचानक तेज़ आँधी और बारिश आई। रामलाल को डर लगा कि कहीं फसल बर्बाद न हो जाए। वह रात में ही खेत पहुँचा और पूरी रात मेड़ को बचाने में लगा रहा। उसके हाथों में छाले पड़ गए, शरीर थक गया, लेकिन उसने हार नहीं मानी।
 
-## How to run
+कुछ महीनों बाद उसकी फसल तैयार हुई। पैदावार ज़्यादा नहीं थी, लेकिन इतनी ज़रूर थी कि घर चल सके। उसी समय सरकार की एक योजना गाँव में आई, जिसमें मेहनती किसानों को सहायता दी जा रही थी। रामलाल को भी थोड़ी मदद मिली। उसने अच्छे बीज खरीदे और अगली फसल की तैयारी की।
 
-1. **Set up the OpenAI API:**
-
-   - If you're new to the OpenAI API, [sign up for an account](https://platform.openai.com/signup).
-   - Follow the [Quickstart](https://platform.openai.com/docs/quickstart) to retrieve your API key.
-
-2. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/openai/openai-fm.git
-   ```
-
-3. **Set the OpenAI API key:**
-
-   2 options:
-
-   - Set the `OPENAI_API_KEY` environment variable [globally in your system](https://platform.openai.com/docs/libraries#create-and-export-an-api-key)
-   - Set the `OPENAI_API_KEY` environment variable in the project: Create a `.env` file at the root of the project and add the following line (see `.env.example` for reference):
-
-   ```bash
-   OPENAI_API_KEY=<your_api_key>
-   ```
-
-4. **Install dependencies:**
-
-   Run in the project root:
-
-   ```bash
-   npm install
-   ```
-
-5. **(Optional) Connect to a hosted database:**
-
-   If you want to use the sharing feature, you need to connect to a hosted postgres database.
-   You should set the environment variables in a `.env` file at the root of the project to connect to your database as shown in `.env.example`.
-
-   ```bash
-   POSTGRES_URL="postgresql://username:password@host:port/database_name"
-   ```
-
-   This step is not needed to run the application and only affects the sharing feature.
-
-6. **Run the app:**
-
-   ```bash
-   npm run dev
-   ```
-
-   The app will be available at [`http://localhost:3000`](http://localhost:3000).
-
-> [!NOTE]  
-> Be aware that if you deploy this app to a public server, you are responsible for any usage it may incur using your OpenAI API key.
-
-## Contributors
-
-### OpenAI team
-
-- [Tyler Smith](https://github.com/tylersmith-openai)
-- [Karolis Kosas](https://github.com/karoliskosas)
-- [Justin Jay Wang](https://github.com/justinjaywang)
-- [Bobby Stocker](https://github.com/stocker-openai)
-- [Jeff Harris](https://github.com/jeffsharris)
-- [Romain Huet](https://github.com/romainhuet)
-- [David Weedon](https://github.com/weedon-openai)
-- [Iaroslav Tverdokhlib](https://github.com/itv-openai)
-- [Adam Walker](https://github.com/awalker-openai)
-- [Edwin Arbus](https://x.com/edwinarbus)
-- [Katia Gil Guzman](https://github.com/katia-openai)
-
-### Contributing
-
-You are welcome to open issues or submit PRs to improve this app, however, please note that we may not review all suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+अगले साल उसकी मेहनत रंग लाई। फसल अच्छी हुई, कर्ज़ भी उतर गया और बच्चों को स्कूल भेजने का सपना पूरा हुआ। रामलाल की आँखों में खुशी के आँसू थे। उसने आसमान की ओर देखकर कहा,
+“मेहनत कभी बेकार नहीं जाती।”
